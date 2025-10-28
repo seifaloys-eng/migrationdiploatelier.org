@@ -1,0 +1,68 @@
+/* styles.css — minimalist design */
+:root {
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-text: #1c1c1c;
+  --color-bg: #fafafa;
+  --color-accent: #1f4e79;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--color-text);
+  background: var(--color-bg);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 24px;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #e6e6e6;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: var(--color-accent);
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: var(--color-text);
+  text-decoration: none;
+  margin-left: 16px;
+  font-weight: 500;
+}
+
+#hero {
+  padding: 60px 0;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--color-accent);
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+  margin-top: 60px;
+  color: #555;
+}
+
